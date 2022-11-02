@@ -11,7 +11,7 @@ let info = `*ArullBotz Disini(｡>_<｡)*`
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 
 
-conn.sendButtonDoc(m.chat, info, wm, 'Hallo Bot', '.menu', m)
+conn.send3ButtonDoc(m.chat, info, wm, 'Hallo Bot', 'bilek', 'Menu', '.menu', '\nI LOVE YOU ARULL', 'bilek', m)
 await conn.sendMessage(m.chat, {
       react: {
        text: '👋',
