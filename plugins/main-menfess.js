@@ -21,7 +21,7 @@ let logs = `➯ Pᴇsᴀɴ : ${pesan}`
 let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
         let imgr = fla.getRandom()
         //Created By AL? Offc
-       await conn.sendButtonDoc(data.jid, tek, ssn, '\nKalo Mau Membalas,Langsung Ketik Aja Balasannya,', null, { contextInfo: { externalAdReply: { showAdAttribution: true,
+       await conn.sendButtonDoc(data.jid, tek, ssn, '\nKalo Mau Membalas,Langsung Ketik Aja Balasannya', null, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://youtube.com/@ARULL777',
     mediaType: 2, 
     description: 'https://youtube.com/@ARULL777',
