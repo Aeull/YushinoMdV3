@@ -22,22 +22,22 @@ let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
         let imgr = fla.getRandom()
         //Created By AL? Offc
        await conn.send3ButtonDoc(data.jid, tek, ssn, 'Balas', '.balasmenfess', 'Owner', '.owner', 'Credit', '.credit', null, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/_b4c00t4an_s3l3b',
+    mediaUrl: 'https://youtube.com/@ARULL777',
     mediaType: 2, 
-    description: sgc,
-    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    description: 'https://youtube.com/@ARULL777',
+    title: "Bantu Subscribe",
     body: wm,
     thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: sgc
+    sourceUrl: 'https://youtube.com/@ARULL777',
    }}}).then(() => {
            conn.send3ButtonDoc(m.chat, `Bᴇʀʜᴀsɪʟ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ @${jid.replace(/@.+/, '')}`, logs, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', null, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://facebook.com/sadtime098',
+    mediaUrl: 'https://youtube.com/@ARULL777',
     mediaType: 2, 
-    description: sgc,
-    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    description: 'https://youtube.com/@ARULL777',
+    title: "Bantu Subscribe",
     body: wm,
     thumbnail: fs.readFileSync('./media/menfess.jpg'),
-    sourceUrl: sgc
+    sourceUrl: 'https://youtube.com/@ARULL777',
    }}})
             conn.menfess[id] = {
                 id,
