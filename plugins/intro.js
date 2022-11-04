@@ -13,7 +13,7 @@ let krtu = `☰⃟⟣⟔ Yᴏᴜʀ Cᴀʀᴅ Iɴᴛʀᴏ ⟓⟢⃟
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.repy(m.chat, krtu, m) // Tambah sendiri kalo mau
+conn.reply(m.chat, krtu, m) // Tambah sendiri kalo mau
 }
 handler.command = /^(intro)$/i
 
